@@ -1,0 +1,16 @@
+.searchinput {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  z-index: 10;
+}
+.verticalLayout {
+  .v-app-bar.v-toolbar.v-topbar {
+    margin-left: 265px;
+    width: calc(100% - 265px);
+  }
+}
+.v-topbar {
+  background-color: #f6f6f6 !important;
+}

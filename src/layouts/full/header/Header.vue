@@ -1,0 +1,84 @@
+<script setup lang="ts">
+import { ref, watch } from "vue";
+import { message, notification, profile } from "./data";
+
+const showSearch = ref(false);
+const href = ref(undefined);
+const messages = ref(message);
+const notifications = ref(notification);
+const userprofile = ref(profile);
+function searchbox() {
+  showSearch.value = !showSearch.value;
+}
+</script>
+
+<template>
+  <v-app-bar
+    elevation="0"
+    class="v-topbar"
+  >
+    <v-app-bar-nav-icon
+      class="hidden-md-and-up"
+    />
+
+    <v-spacer />
+    <!-- ---------------------------------------------- -->
+    <!---right part -->
+    <!-- ---------------------------------------------- -->
+
+    <!-- ---------------------------------------------- -->
+    <!-- User Profile -->
+    <!-- ---------------------------------------------- -->
+    <v-menu anchor="bottom end" origin="auto" min-width="300">
+      <template v-slot:activator="{ props }">
+        <v-btn
+          v-bind="props"
+          class="pa-0 px-1"
+          elevation="0"
+          color="transparent"
+          plain
+          :ripple="false"
+        >
+          <v-avatar size="35">
+            <img src="@/assets/images/users/user2.jpg" alt="Julia" />
+          </v-avatar>
+        </v-btn>
+      </template>
+
+      <v-list class="pa-6" elevation="10" rounded="lg">
+        <v-list-item
+          class="pa-3 mb-2"
+          v-for="(item, i) in userprofile"
+          :key="i"
+          @click="href"
+          :value="item"
+          :title="item.title"
+          :subtitle="item.desc"
+          rounded="lg"
+        >
+          <template v-slot:prepend>
+            <v-list-item-avatar start>
+              <v-btn
+                :color="item.color"
+                variant="contained"
+                icon
+                elevation="0"
+                size="small"
+                class="mr-3"
+              >
+                <vue-feather :type="item.icon" size="18"></vue-feather>
+              </v-btn>
+            </v-list-item-avatar>
+          </template>
+        </v-list-item>
+        <v-btn
+          block
+          color="secondary"
+          variant="contained"
+          class="mt-4 py-4"
+          >Logout</v-btn
+        >
+      </v-list>
+    </v-menu>
+  </v-app-bar>
+</template>
