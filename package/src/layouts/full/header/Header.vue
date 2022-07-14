@@ -1,31 +1,12 @@
 <script setup lang="ts">
-import { ref, watch } from "vue";
-import { message, notification, profile } from "./data";
+import { ref } from "vue";
+import { profile } from "./data";
 
-const showSearch = ref(false);
-const href = ref(undefined);
-const messages = ref(message);
-const notifications = ref(notification);
 const userprofile = ref(profile);
-function searchbox() {
-  showSearch.value = !showSearch.value;
-}
 </script>
 
 <template>
-  <v-app-bar
-    elevation="0"
-    class="v-topbar"
-  >
-    <v-app-bar-nav-icon
-      class="hidden-md-and-up"
-    />
-
-    <v-spacer />
-    <!-- ---------------------------------------------- -->
-    <!---right part -->
-    <!-- ---------------------------------------------- -->
-
+  <div>
     <!-- ---------------------------------------------- -->
     <!-- User Profile -->
     <!-- ---------------------------------------------- -->
@@ -50,7 +31,6 @@ function searchbox() {
           class="pa-3 mb-2"
           v-for="(item, i) in userprofile"
           :key="i"
-          @click="href"
           :value="item"
           :title="item.title"
           :subtitle="item.desc"
@@ -71,14 +51,10 @@ function searchbox() {
             </v-list-item-avatar>
           </template>
         </v-list-item>
-        <v-btn
-          block
-          color="secondary"
-          variant="contained"
-          class="mt-4 py-4"
+        <v-btn block color="secondary" variant="contained" class="mt-4 py-4"
           >Logout</v-btn
         >
       </v-list>
     </v-menu>
-  </v-app-bar>
+  </div>
 </template>
