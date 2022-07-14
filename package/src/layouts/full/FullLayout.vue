@@ -1,10 +1,17 @@
 <script setup lang="ts">
 import { RouterView } from "vue-router";
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import SidebarVue from "./sidebar/Sidebar.vue";
 import HeaderVue from "./header/Header.vue";
 
-const drawer = ref(null);
+const drawer = ref(undefined || true);
+const innerW = window.innerWidth;
+
+onMounted(() => {
+  if (innerW < 950) {
+    drawer.value = !drawer.value;
+  }
+});
 </script>
 
 <template>
