@@ -49,7 +49,7 @@ const monthtable = ref([
 </script>
 
 <template>
-  <v-card flat class="w-100">
+  <v-card flat class="w-100 h-100">
     <v-card-text>
       <div class="d-sm-flex align-center">
         <div>
@@ -66,7 +66,7 @@ const monthtable = ref([
           ></v-select>
         </div>
       </div>
-      <v-table class="month-table mt-5">
+      <v-table class="month-table mt-7">
         <template v-slot:default>
           <thead>
             <tr>

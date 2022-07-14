@@ -1,10 +1,5 @@
 .scrollnavbar {
-  height: calc(100vh - 100px);
   .v-list--one-line {
-    .smallCap {
-      padding: 0px;
-      font-size: 14px;
-    }
     .v-list-group__items .v-list-item,
     .v-list-item {
       padding-inline-start: 12px !important;
@@ -14,9 +9,6 @@
     .v-avatar.v-avatar--density-default {
       width: 20px;
       height: 34px;
-    }
-    .first-level-item .v-icon--size-default {
-      font-size: 1rem;
     }
     .v-list-item--active {
       background: rgb(var(--v-theme-secondary));

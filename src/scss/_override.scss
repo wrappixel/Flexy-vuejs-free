@@ -7,7 +7,11 @@ html {
     }
     font-family: $font-family, sans-serif !important;
   }
-  
+
+  .bg-light-primary {
+    background-color: #fcf1ed !important;
+  }
+
   .elevation-10 {
     box-shadow: $box-shadow !important;
   }

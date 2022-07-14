@@ -10,7 +10,7 @@ const items = ref([
 </script>
 
 <template>
-  <v-card class="w-100">
+  <v-card class="w-100 h-100">
     <v-card-text>
       <div class="d-flex align-center mb-5">
         <h2 class="title text-h6 font-weight-medium">Daily Activities</h2>
@@ -32,7 +32,7 @@ const items = ref([
         </div>
       </div>
       <!-- timeline -->
-      <v-timeline class="theme-timeline">
+      <v-timeline class="theme-timeline mt-10">
         <v-timeline-item dot-color="success" fill-dot size="x-small">
           <template v-slot:opposite>
             <span class="title text-body-2 font-weight-bold">09.50</span>

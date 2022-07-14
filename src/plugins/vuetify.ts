@@ -6,11 +6,10 @@ import * as components from "vuetify/components";
 import * as directives from "vuetify/directives";
 
 const Lighttheme: ThemeDefinition = {
-  dark: false,
   variables: {},
   colors: {
     primary: "#ee8a6a",
-    info: "#03c9d7",
+    info: "#0cb9c5",
     success: "#05b187",
     accent: "#fc4b6c",
     warning: "#fec90f",

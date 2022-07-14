@@ -46,5 +46,11 @@ const sidebarMenu = ref(sidebarItems);
         </template>
       </v-list>
     </div>
+        <div class="pa-4 ma-4 bg-light-primary rounded-lg text-center">
+          <img src="@/assets/images/sidebar-buynow-bg.svg" />
+          <h4 class="font-weight-regular mb-3">Get Template for Free </h4>
+          <v-btn class="mb-2" href="#" block>Download Free</v-btn>
+          <v-btn color="info" href="https://www.wrappixel.com/templates/flexy-vuetify-dashboard/" block>Check Pro</v-btn>
+        </div>
   </v-navigation-drawer>
 </template>

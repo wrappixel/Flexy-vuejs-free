@@ -13,12 +13,14 @@ import BlogCard from "./dashboardComponents/blog-card/BlogCard.vue";
     <v-col cols="12" sm="12">
       <TheSalesOverview />
     </v-col>
-    <v-col cols="12" lg="4">
+    <v-col cols="12" lg="4" class="d-flex align-items-stretch">
       <DailyActivities />
     </v-col>
-    <v-col cols="12" lg="8">
+    <v-col cols="12" lg="8" class="d-flex align-items-stretch">
       <ProductMonthTable />
     </v-col>
+    <v-col cols="12" sm="12">
     <BlogCard />
+    </v-col>
   </v-row>
 </template>
