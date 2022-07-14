@@ -36,20 +36,7 @@ const userprofile = ref(profile);
           :subtitle="item.desc"
           rounded="lg"
         >
-          <template v-slot:prepend>
-            <v-list-item-avatar start>
-              <v-btn
-                :color="item.color"
-                variant="contained"
-                icon
-                elevation="0"
-                size="small"
-                class="mr-3"
-              >
-                <vue-feather :type="item.icon" size="18"></vue-feather>
-              </v-btn>
-            </v-list-item-avatar>
-          </template>
+         
         </v-list-item>
         <v-btn block color="secondary" variant="contained" class="mt-4 py-4"
           >Logout</v-btn
