@@ -40,7 +40,7 @@ const sidebarMenu = ref(sidebarItems);
     <div class="pa-4 ma-4 bg-light-primary rounded-lg text-center">
       <img src="@/assets/images/sidebar-buynow-bg.svg" />
       <h4 class="font-weight-regular mb-3">Get Template for Free</h4>
-      <v-btn class="mb-2" href="#" block>Download Free</v-btn>
+      <v-btn class="mb-2" href="https://www.wrappixel.com/templates/flexy-vuejs-admin-free/" block>Download Free</v-btn>
       <v-btn
         color="info"
         href="https://www.wrappixel.com/templates/flexy-vuetify-dashboard/"
