@@ -43,7 +43,7 @@ const sidebarMenu = ref(sidebarItems);
       <v-btn class="mb-2" href="https://www.wrappixel.com/templates/flexy-vuejs-admin-free/" block>Download Free</v-btn>
       <v-btn
         color="info"
-        href="https://www.wrappixel.com/templates/flexy-vuetify-dashboard/"
+        href="https://www.wrappixel.com/templates/flexy-vuetify-dashboard/?ref=33"
         block
         >Check Pro</v-btn
       >
