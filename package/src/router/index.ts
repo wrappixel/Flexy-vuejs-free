@@ -1,53 +1,16 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHistory } from 'vue-router';
+import MainRoutes from './MainRoutes';
+import AuthRoutes from './AuthRoutes';
 
-const router = createRouter({
-  //history: createWebHistory(import.meta.env.BASE_URL),
-  history: createWebHistory("/"),
-  routes: [
-    {
-      path: "/",
-      redirect: "/dashboard",
-      component: () => import("@/layouts/full/FullLayout.vue"),
-      children: [
+export const router = createRouter({
+    history: createWebHistory(import.meta.env.BASE_URL),
+    routes: [
         {
-          name: "Dashboard",
-          path: "/dashboard",
-          component: () =>
-            import("@/views/dashboard/Dashboard.vue"),
+            path: '/:pathMatch(.*)*',
+            component: () => import('@/views/pages/Error404.vue')
         },
-        {
-          name: "Alerts",
-          path: "ui-components/alert",
-          component: () =>
-            import("@/views/ui-components/Alerts.vue"),
-        },
-        {
-          name: "Buttons",
-          path: "ui-components/buttons",
-          component: () =>
-            import("@/views/ui-components/Buttons.vue"),
-        },
-        {
-          name: "Cards",
-          path: "ui-components/cards",
-          component: () =>
-            import("@/views/ui-components/Cards.vue"),
-        },
-        {
-          name: "Menus",
-          path: "ui-components/menus",
-          component: () =>
-            import("@/views/ui-components/Menus.vue"),
-        },
-        {
-          name: "Tables",
-          path: "ui-components/tables",
-          component: () =>
-            import("@/views/ui-components/Tables.vue"),
-        },
-      ],
-    },
-  ],
+        MainRoutes,
+        AuthRoutes
+    ]
 });
 
-export default router;

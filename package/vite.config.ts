@@ -1,7 +1,8 @@
 import { fileURLToPath, URL } from "url";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
-import vuetify from "@vuetify/vite-plugin";
+import vuetify from "vite-plugin-vuetify";
+
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -9,6 +10,7 @@ export default defineConfig({
     vue(),
     vuetify({
       autoImport: true,
+      //styles: "expose",
     }),
   ],
   resolve: {
@@ -18,8 +20,13 @@ export default defineConfig({
   },
   css: {
     preprocessorOptions: {
-      scss: { charset: false },
-      css: { charset: false },
+      scss: {},
     },
+  },
+  optimizeDeps: {
+    exclude: ['vuetify'],
+    entries: [
+      './src/**/*.vue',
+    ],
   },
 });

@@ -1,53 +1,31 @@
 html {
-  font-family: $font-family;
-
-  .v-application {
-    [class*="text-"] {
-      font-family: $font-family, sans-serif !important;
+    .bg-success {
+        color: white !important;
     }
-    font-family: $font-family, sans-serif !important;
-  }
 
-  .bg-light-primary {
-    background-color: #fcf1ed !important;
-  }
+    .bg-primary {
+        color: $white !important;
+    }
 
-  .elevation-10 {
-    box-shadow: $box-shadow !important;
-  }
-  .v-card-text {
-    padding: 30px;
-  }
-  .v-card-header {
-    padding: 30px 30px 0.625rem;
-  }
-  .v-card-actions {
-    padding: 0.625rem 30px 30px;
-  }
-  .v-card {
-    border-radius: $border-radius;
-    width: 100%;
-  }
-  .v-btn {
-    text-transform: capitalize;
-    letter-spacing: $btn-letter-spacing;
-  }
-  .v-btn-group .v-btn {
-    height: inherit !important;
-  }
+    .bg-secondary {
+        color: $white !important;
+    }
 
-  .v-navigation-drawer__scrim.fade-transition-leave-to {
-    display: none;
-  }
+    .bg-warning {
+        color: $white !important;
+    }
+}
+.border,
+.v-divider {
+    border-color: rgba(var(--v-border-color), 1) !important;
+}
 
-  .theme-carousel .v-carousel__progress {
-    position: absolute;
-  }
-  .v-theme--light,
-  .v-theme--dark {
-    --v-theme-on-warning: 255, 255, 255;
-  }
-  .v-card.w-auto {
-    width: auto !important;
-  }
+.z-1{
+    z-index: 1 !important;
+}
+.lh-0{
+    line-height: 0;
+}
+.lh-normal{
+    line-height: normal;
 }

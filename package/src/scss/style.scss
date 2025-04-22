@@ -1,13 +1,15 @@
-// @use "vuetify/styles" with (
-//   $body-font-family: "DM Sans",
-//   $border-radius-root: 5px
-// );
-@use "vuetify/styles";
-//@import "vuetify/styles";
-//@import "vuetify/src/styles/styles.sass";
-@import "./variables";
-@import "./override";
-@import "./layout/container";
-@import "./layout/sidebar";
-@import "./layout/topbar";
-@import "./pages/dashboards";
+@import './variables';
+@import 'vuetify/styles/main.sass';
+@import './override';
+@import './layout/container';
+@import './layout/sidebar';
+@import './layout/topbar';
+@import './components/VButtons';
+@import './components/VCard';
+@import './components/VInput';
+@import './components/VNavigationDrawer';
+@import './components/VShadow';
+@import './components/VTextField';
+@import './pages/dashboards';
+@import './pages/auth';
+@import 'vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css';
