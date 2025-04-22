@@ -1,4 +1,4 @@
-# <a href="https://flexy-vuejs-free.netlify.app/dashboard">Flexy Vuetify Free</a>
+#<a href="https://flexy-vuejs-free.netlify.app/dashboard">Flexy Vuetify Free</a>
 Flexy VueJs Admin Dashboard
 
 <!-- Main image of Template -->
