@@ -1,16 +1,16 @@
 <p align="center">
-   <a href="https://www.wrappixel.com/" target="_blank">
+   <a href="https://wrappixel.com/" target="_blank">
       <img src="https://adminmart.github.io/template_api/images/brand-logo/WrapPixel-Logo.svg" alt="flexy-image" width="100px" height="100px">
    </a>
 </p>
 <h1 align="center">
-   <a href="https://www.wrappixel.com/templates/flexy-vuejs-admin-free/?ref=376" target="_blank" align="center">
-       Flexy Vue Js free Admin Template
+   <a href="https://wrappixel.com/templates/flexy-vuejs-admin-free?ref=376" target="_blank" align="center">
+       <b>Flexy Vue Js free Admin Template</b>
    </a>
 </h1>
 <p align="center">Download most useful and comprehensive 🚀 Free Vue admin template built for developers 🛠</p>
 
-[![Flexy Vue Js free Admin Template Demo Screenshot](https://www.wrappixel.com/wp-content/uploads/2022/07/flexy-vuejs-free.jpg)](https://www.wrappixel.com/templates/flexy-vuejs-admin-free/?ref=376)
+[![Flexy Vue Js free Admin Template Demo Screenshot](https://repository-images.githubusercontent.com/513538702/5aed6760-5aec-4004-bb0a-43f7eab274b8)](https://wrappixel.com/templates/flexy-vuejs-admin-free?ref=376)
 
 
 ## 👋 Introduction
@@ -102,12 +102,10 @@ The Pro Version of the **Flexy Vue Js Admin Template** comes packed with essenti
   <a href="https://flexy-vue3-main-admin.vercel.app/dashboards/analytical?ref=376" target="_blank">
     <img src="https://img.shields.io/badge/Try_the_Demo-Click_Here-blue" alt="Try the Demo">
   </a>
-  <a href="https://www.wrappixel.com/templates/flexy-vuetify-dashboard/?ref=376" target="_blank">
+  <a href="https://wrappixel.com/templates/flexy-vuetify-dashboard?ref=376" target="_blank">
     <img src="https://img.shields.io/badge/Download_Now-Click_Here-green" alt="Download Now">
   </a>
 </div>
-
-[![Flexy React Material Dashboard Demo Screenshot](https://www.wrappixel.com/wp-content/uploads/edd/2024/05/flexy-vuetify-vuejs-admin-wpn.jpg)](https://www.wrappixel.com/templates/flexy-vuetify-dashboard/?ref=376)
 
 ---
 
@@ -121,7 +119,7 @@ The **Free Version** of the **Flexy Vue Js Free Admin Template** provides a soli
 | **Feature**                      | **Free Version**                       | **Pro Version**                                      |
 |-----------------------------------|----------------------------------------|-----------------------------------------------------|
 | **Demo**                          | [![Try the Demo](https://img.shields.io/badge/Try_the_Demo-Click_Here-blue)](https://flexy-vuejs-free.netlify.app/?ref=376)                               | [![Try the Demo](https://img.shields.io/badge/Try_the_Demo-Click_Here-blue)](https://flexy-vue3-main-admin.vercel.app/dashboards/analytical?ref=376)                                              |
-| **Download**                      | [![Download Now](https://img.shields.io/badge/Download_Now-Click_Here-green)](https://www.wrappixel.com/templates/flexy-vuejs-admin-free/?ref=376)                                | [![Download Now](https://img.shields.io/badge/Download_Now-Click_Here-green)](https://www.wrappixel.com/templates/flexy-vuetify-dashboard/?ref=376)                                          |
+| **Download**                      | [![Download Now](https://img.shields.io/badge/Download_Now-Click_Here-green)](https://wrappixel.com/templates/flexy-vuejs-admin-free?ref=376)                                | [![Download Now](https://img.shields.io/badge/Download_Now-Click_Here-green)](https://wrappixel.com/templates/flexy-vuetify-dashboard?ref=376)                                          |
 | **Responsive Design**             | ✅ Yes                                 | ✅ Yes                                              |
 | **Pre-designed Pages**            | ✅ Basic Pages                         | ✅ Advanced Pages (more layouts & options)           |
 | **Widgets**                       | ✅ Basic Widgets                       | ✅ Advanced Widgets (e.g., weather, charts, maps)    |
@@ -133,82 +131,6 @@ The **Free Version** of the **Flexy Vue Js Free Admin Template** provides a soli
 | **User Permissions & Roles**      | ❌ No                                  | ✅ User roles and permissions management            |
 | **Real-time Notifications**       | ❌ Not available                       | ✅ Real-time notifications for alerts & updates      |
 | **Advanced Analytics & Reporting**| ❌ Basic reports                       | ✅ Advanced analytics with custom reports and filters|
-
----
-
-## 🗂️ Other versions
-
-<table>
-   <thead>
-      <tr>
-         <th> 
-            <span style="font-size: 16px;">All Access Pass</span>
-         </th>
-         <th> 
-            <img src="https://skillicons.dev/icons?i=bootstrap" height="20" alt="Bootstrap 5 templates" style="margin-right: 8px;">
-            <span style="font-size: 16px;">Bootstrap</span>
-         </th>
-         <th> 
-            <img src="https://skillicons.dev/icons?i=next" height="20" alt="next templates" style="margin-right: 8px;">
-            <span style="font-size: 16px;">Next</span>
-         </th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <td>
-            <a href="https://www.wrappixel.com/all-access-pass/?ref=376" width="150px">
-             <img src="https://www.wrappixel.com/wp-content/uploads/2025/04/all-access-pass-category-banner-1.png" alt="all-access-pass-category-admin-template" style="max-width:140px;">
-            </a>
-         </td>
-         <td>
-            <a href="https://www.wrappixel.com/templates/flexy-bootstrap-admin-template/?ref=376" width="150px">
-               <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/flexy-bootstrap-admin-wpn.jpg" alt="flexy-bootstrap-admin-template" style="max-width:140px;">
-            </a>
-         </td>
-         <td>
-            <a href="https://www.wrappixel.com/templates/flexy-nextjs-dashboard-material-ui/?ref=376" width="150px">
-               <img src="https://www.wrappixel.com/wp-content/uploads/edd/2025/03/Flexy-Nextjs_blue.jpg" alt="flexy-next-admin-template" style="max-width:140px;">
-            </a>
-         </td>
-      </tr>
-   </tbody>
-   <thead>   
-      <tr>
-         <th>
-            <img src="https://skillicons.dev/icons?i=react" height="20" alt="React templates" style="margin-right: 8px;">
-            <span>React</span>
-         </th>
-         <th>
-            <img src="https://skillicons.dev/icons?i=angular" height="20" alt="Angular templates" style="margin-right: 8px;">
-            <span>Angular</span>
-         </th>
-         <th>
-            <img src="https://skillicons.dev/icons?i=nuxt" height="20" alt="Nuxt templates" style="margin-right: 8px;">
-            <span>Nuxt</span>
-         </th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <td>
-           <a href="https://www.wrappixel.com/templates/materialm-tailwind-react-admin-template/?ref=376" width="150px">
-             <img src="https://www.wrappixel.com/wp-content/uploads/edd/2025/02/materialM-react-tailwind-pro.jpg" alt="flexy-react-admin-template" style="max-width:150px;">
-           </a>
-         </td>
-         <td>
-           <a href="https://www.wrappixel.com/templates/flexy-material-angular-admin/?ref=376" width="150px">
-             <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/flexy-angular-material-admin-wpn.jpg" alt="flexy-angular-admin-template" style="max-width:140px;">
-           </a>
-         </td>
-         <td>
-            <a href="https://www.wrappixel.com/templates/flexy-nuxt-js-vuetify-admin-template/?ref=376" width="150px">
-               <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/11/Flexy_Nuxtjs_preview.jpg" alt="flexy-nuxt-admin-template" style="max-width:150px;">
-            </a>
-         </td> 
-      </tr>
-   </tbody>
-</table>
 
 ---
 
@@ -243,16 +165,16 @@ Follow these simple steps to start contributing:
 ---
 
 ## 🧭 Useful Links
-- <p><a href="https://www.wrappixel.com/templates/category/admin-dashboard-templates/?ref=376">Admin Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/bootstrap-templates/?ref=376">Bootstrap Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/angular-templates/?ref=376">Angular Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/react-templates/?ref=376">React Template</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/framer-templates/?ref=376">Framer Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/mui-templates/?ref=376">Material UI Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/vuetify-templates/?ref=376">Vuetify Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/nextjs-templates/?ref=376">NextJs Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/nuxt-templates/?ref=376">Nuxt Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/tailwind-dashboard/?ref=376">Tailwind Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/admin-dashboard-templates?ref=376"><b>Admin Templates</b></a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/bootstrap-templates?ref=376"><b>Bootstrap Templates</b></a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/angular-templates?ref=376"><b>Angular Templates</b></a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/react-templates?ref=376"><b>React Template</b></a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/framer-templates?ref=376"><b>Framer Templates</b></a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/mui-templates?ref=376"><b>Material UI Templates</b></a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/vuetify-templates?ref=376"><b>Vuetify Templates</b></a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/nextjs-templates?ref=376"><b>NextJs Templates</b></a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/nuxt-templates?ref=376"><b>Nuxt Templates</b></a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/tailwind-templates?ref=376"><b>Tailwind Templates</b></a> from Wrappixel</p>
 
 ---
 
